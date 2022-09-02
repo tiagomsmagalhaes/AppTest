@@ -33,6 +33,7 @@ jobs:
       - name: Test
         run: |
           yarn install
+          npm i -g jest
           jest
 
       # Runs a set of commands using the runners shell
